@@ -2,6 +2,7 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+filetype plugin on
 
 call plug#begin()
 
@@ -11,6 +12,7 @@ Plug 'tpope/vim-sensible'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
