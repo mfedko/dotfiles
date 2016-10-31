@@ -1,4 +1,6 @@
 "*":
+  autosave:
+    enabled: true
   core:
     disabledPackages: [
       "background-tips"
@@ -15,16 +17,19 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontFamily: "Menlo"
-    fontSize: 15
+    fontFamily: "Fira Code"
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "git-plus": {}
   "go-plus":
     goPath: "/Users/holman/Code/go"
   "linter-eslint":
@@ -40,3 +45,9 @@
     ]
   welcome:
     showOnStartup: false
+".diff":
+  editor:
+    tabLength: 4
+".groovy.source":
+  editor:
+    tabLength: 4
