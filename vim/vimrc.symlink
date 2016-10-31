@@ -2,3 +2,22 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+call plug#begin()
+
+" Sensible defaults
+" http://www.vim.org/scripts/script.php?script_id=4391
+Plug 'tpope/vim-sensible'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
+
+set number
+set cursorline
+
+syntax enable
+set background=dark
+colorscheme solarized
+
