@@ -26,6 +26,7 @@
     fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
+    preferredLineLength: 120
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
     tabLength: 4

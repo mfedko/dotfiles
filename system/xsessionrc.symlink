@@ -1,0 +1,2 @@
+#!/bin/sh
+exec setxkbmap "us,ru" ",winkeys" "grp:caps_toggle,grp_led:scroll,compose:ralt"
