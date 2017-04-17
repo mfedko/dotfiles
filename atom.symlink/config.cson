@@ -26,8 +26,9 @@
     fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
+    preferredLineLength: 120
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
+    softWrap: true
     tabLength: 4
   "git-plus": {}
   "go-plus":
@@ -43,6 +44,10 @@
       "text.git-commit"
       "text.html.basic"
     ]
+  "terminal-plus":
+    core:
+      shell: "/bin/bash"
+      workingDirectory: "Active File"
   welcome:
     showOnStartup: false
 ".diff":
