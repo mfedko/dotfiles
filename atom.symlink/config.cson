@@ -30,7 +30,9 @@
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
-  "git-plus": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "96d7c232-b38e-4b00-b0fd-65a44996f01d"
   "go-plus":
     goPath: "/Users/holman/Code/go"
   "linter-eslint":

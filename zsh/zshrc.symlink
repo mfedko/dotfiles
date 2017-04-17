@@ -28,6 +28,9 @@ do
   source $file
 done
 
+# Fast gradle completion
+fpath=($HOME/.zsh/gradle-completion $fpath)
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit

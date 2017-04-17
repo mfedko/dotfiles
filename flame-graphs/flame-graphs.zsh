@@ -1,0 +1,3 @@
+export FLAMEGRAPH_DIR=~/opt/FlameGraph
+
+PATH="$PATH:$FLAMEGRAPH_DIR"
