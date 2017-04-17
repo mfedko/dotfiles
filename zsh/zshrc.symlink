@@ -1,3 +1,6 @@
+# enable profiling
+# zmodload zsh/zprof
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
@@ -46,3 +49,4 @@ unset config_files
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/mfedko/.sdkman"
 [[ -s "/home/mfedko/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mfedko/.sdkman/bin/sdkman-init.sh"
+

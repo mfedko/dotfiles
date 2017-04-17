@@ -4,7 +4,11 @@ syntax on
 filetype indent plugin on
 filetype plugin on
 
-call plug#begin()
+" plugin manager: https://github.com/junegunn/vim-plug
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" install plugins with :PlugInstall
+call plug#begin('~/.vim/plugged')
 
 " Sensible defaults
 " http://www.vim.org/scripts/script.php?script_id=4391
@@ -13,6 +17,7 @@ Plug 'tpope/vim-sensible'
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
@@ -22,4 +27,25 @@ set cursorline
 syntax enable
 set background=dark
 colorscheme solarized
+
+" Ctrl-n to toggle NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" How can I open a NERDTree automatically when vim starts up if no files were specified?
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" NERDTree-git status
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
 

@@ -28,7 +28,7 @@
     invisibles: {}
     preferredLineLength: 120
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
+    softWrap: true
     tabLength: 4
   "git-plus":
     general:
@@ -46,6 +46,10 @@
       "text.git-commit"
       "text.html.basic"
     ]
+  "terminal-plus":
+    core:
+      shell: "/bin/bash"
+      workingDirectory: "Active File"
   welcome:
     showOnStartup: false
 ".diff":
