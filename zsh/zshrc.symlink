@@ -47,11 +47,5 @@ done
 unset config_files
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-<<<<<<< HEAD
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-=======
-export SDKMAN_DIR="/home/mfedko/.sdkman"
-[[ -s "/home/mfedko/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mfedko/.sdkman/bin/sdkman-init.sh"
-
->>>>>>> 00b4c6a537604e3011ee7253ee7b4e75dabf9966
