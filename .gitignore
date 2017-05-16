@@ -6,8 +6,9 @@ atom.symlink/compile-cache/
 atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
-atom.symlink/blob-store
 atom.symlink/recovery
 atom.symlink/split-diff/
 
 git/gitconfig.local.symlink
+/.idea/
+/zsh/prompt.zsh.back
