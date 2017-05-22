@@ -19,6 +19,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+Plug 'altercation/vim-colors-solarized'
+
 call plug#end()
 
 set number
