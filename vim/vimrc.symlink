@@ -20,6 +20,8 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'udalov/kotlin-vim'
 
+Plug 'altercation/vim-colors-solarized'
+
 call plug#end()
 
 set number
